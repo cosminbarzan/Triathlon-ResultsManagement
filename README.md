@@ -14,4 +14,4 @@ respectivă în ordine descrescătoare după numărul de puncte obținut.
 4. Logout. 
 
 -> Solutia problemei in limbajul Java se afla in directorul Triatlon-Java
--> Solutia problemei in limbajul C# se afla in directorul Triatlon-CSharp
+-> Solutia problemei in limbajul C# se afla in directorul Triatlon-CS
