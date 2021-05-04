@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchor_pane" onMouseDragged="#dragged" onMousePressed="#pressed" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="triathlon.client.gui.triatlon.LoginController">
+    <children>
+        <Pane prefHeight="400.0" prefWidth="300.0">
+            <children>
+                <Label layoutX="96.0" layoutY="187.0" text="Triathlon App" />
+            </children>
+        </Pane>
+        <Pane layoutX="306.0" prefHeight="400.0" prefWidth="300.0">
+            <children>
+                <TextField fx:id="textFieldUsername" layoutX="38.0" layoutY="181.0" promptText="Username" />
+                <PasswordField fx:id="textFieldPassword" layoutX="38.0" layoutY="220.0" promptText="Password" />
+                <Button layoutX="38.0" layoutY="306.0" mnemonicParsing="false" onMouseClicked="#handleLogin" prefHeight="39.0" prefWidth="151.0" text="Login" />
+                <Label layoutX="38.0" layoutY="70.0" text="Welcome back" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
+

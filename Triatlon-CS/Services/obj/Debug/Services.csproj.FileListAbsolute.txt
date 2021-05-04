@@ -1,0 +1,11 @@
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\bin\Debug\Services.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\bin\Debug\Services.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\bin\Debug\Model.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\bin\Debug\Model.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\obj\Debug\Services.csprojAssemblyReference.cache
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\obj\Debug\Services.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\obj\Debug\Services.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\bin\Debug\System.Data.SQLite.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Services\bin\Debug\System.Data.SQLite.xml

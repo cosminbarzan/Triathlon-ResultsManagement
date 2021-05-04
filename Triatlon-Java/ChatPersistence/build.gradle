@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'Java11ChatSockets'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':ChatModel')
+    runtime group: 'org.xerial', name: 'sqlite-jdbc', version: '3.16.1'
+
+    compile 'org.hibernate:hibernate-core:5.2.10.Final'
+
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.0'
+
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.0'
+
+    // JAX-B dependencies for JDK 9+
+    implementation "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
+    implementation "org.glassfish.jaxb:jaxb-runtime:2.3.2"
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

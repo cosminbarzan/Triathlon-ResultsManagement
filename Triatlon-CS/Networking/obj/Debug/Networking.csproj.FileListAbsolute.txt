@@ -1,0 +1,13 @@
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\bin\Debug\Networking.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\bin\Debug\Networking.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\bin\Debug\Model.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\bin\Debug\Services.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\bin\Debug\Model.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\bin\Debug\Services.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\obj\Debug\Networking.csprojAssemblyReference.cache
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\obj\Debug\Networking.csproj.CoreCompileInputs.cache
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\obj\Debug\Networking.csproj.CopyComplete
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\obj\Debug\Networking.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\obj\Debug\Networking.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\bin\Debug\System.Data.SQLite.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Networking\bin\Debug\System.Data.SQLite.xml

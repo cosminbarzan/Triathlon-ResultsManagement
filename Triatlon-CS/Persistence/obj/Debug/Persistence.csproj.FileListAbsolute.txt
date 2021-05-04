@@ -1,0 +1,14 @@
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\bin\Debug\Persistence.dll.config
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\bin\Debug\Persistence.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\bin\Debug\Persistence.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\bin\Debug\log4net.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\bin\Debug\Model.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\bin\Debug\System.Data.SQLite.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\bin\Debug\Model.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\bin\Debug\log4net.xml
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\bin\Debug\System.Data.SQLite.xml
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\obj\Debug\Persistence.csprojAssemblyReference.cache
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\obj\Debug\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\obj\Debug\Persistence.csproj.CopyComplete
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\obj\Debug\Persistence.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\Persistence\obj\Debug\Persistence.pdb

@@ -1,0 +1,53 @@
+syntax = "proto3";
+option java_outer_classname = "TriathlonProtobufs";
+
+message UserDTO{
+  int64 id = 1;
+  string firstName = 2;
+  string lastName = 3;
+  string username = 4;
+  string password = 5;
+  int64 idStage = 6;
+}
+
+message ResultDTO{
+  int64 participantId = 1;
+  int64 stageId = 2;
+  double score = 3;
+}
+
+message Participant{
+  string firstName = 1;
+  string lastName = 2;
+}
+
+message ParticipantDTO{
+  int64 id = 1;
+  string firstName = 2;
+  string lastName = 3;
+  double score = 4;
+}
+
+message Request {
+  enum RequestType {Unknown=0; LOGIN=1; LOGOUT=2; GET_PARTICIPANTS_BY_SCORE=3; GET_PARTICIPANTS_AND_SCORE=4; ADD_RESULT=5;}
+
+  RequestType type = 1;
+
+  oneof payload{
+    UserDTO user = 2;
+    ResultDTO result = 3;
+    int64 idStage = 4;
+  }
+}
+
+message Response{
+  enum ResponseType {Unknown=0; OK=1; ERROR=2; NEW_RESULT=3; GET_PARTICIPANTS_BY_SCORE=4; GET_PARTICIPANTS_AND_SCORE=5;}
+
+  ResponseType type = 1;
+
+  string error = 2;
+  ResultDTO result = 3;
+  UserDTO user = 4;
+  repeated Participant participants = 5;
+  repeated ParticipantDTO participantsDTO = 6;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="dialect">triathlon.persistence.org.hibernate.dialect.SQLiteDialect</property>
+        <property name="connection.driver_class">org.sqlite.JDBC</property>
+        <property name="connection.url">jdbc:sqlite:C:\Users\barza\source\repos\An2-Sem2\MPP\Databases\triathlon.db</property>
+
+<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+
+
+        <mapping resource="user/hbm/User.hbm.xml"/>
+        <mapping resource="stage/hbm/Stage.hbm.xml"/>
+<!--        <mapping class="event.annotations.EventAnnot"/>-->
+    </session-factory>
+</hibernate-configuration>

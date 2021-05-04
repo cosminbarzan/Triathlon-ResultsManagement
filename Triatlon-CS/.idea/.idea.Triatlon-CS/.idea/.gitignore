@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/.idea.Triatlon-CS.iml
+/modules.xml
+/projectSettingsUpdater.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\.idea\.idea.Triatlon-CS\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
