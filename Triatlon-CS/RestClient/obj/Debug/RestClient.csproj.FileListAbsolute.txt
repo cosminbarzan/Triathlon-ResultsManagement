@@ -1,0 +1,11 @@
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\bin\Debug\RestClient.exe
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\bin\Debug\RestClient.pdb
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\obj\Debug\RestClient.csprojAssemblyReference.cache
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\obj\Debug\RestClient.csproj.CoreCompileInputs.cache
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\obj\Debug\RestClient.csproj.CopyComplete
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\obj\Debug\RestClient.exe
+C:\Users\barza\source\repos\An2-Sem2\MPP\Lab\Triatlon-CS\RestClient\obj\Debug\RestClient.pdb

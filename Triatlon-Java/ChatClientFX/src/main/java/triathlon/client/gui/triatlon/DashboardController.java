@@ -1,5 +1,7 @@
 package triathlon.client.gui.triatlon;
 
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import triathlon.client.gui.Util;
 import triathlon.model.*;
 import triathlon.services.IObserver;
@@ -20,6 +22,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import triathlon.model.*;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -131,20 +134,21 @@ public class DashboardController implements IObserver, Initializable {
         populateTable2();
     }
 
-    public void handleLogout(MouseEvent event) {
-//        FXMLLoader loginLoader = new FXMLLoader();
-//        loginLoader.setLocation(getClass().getResource("/views/Login.fxml"));
-//        Parent fxml = loginLoader.load();
-//
-//        anchor_pane2.getChildren().removeAll();
-//
-//        anchor_pane2.getChildren().setAll(fxml);
-//
-//        LoginController loginController = loginLoader.getController();
-//        loginController.setService(service);
+    public void handleLogout(MouseEvent event) throws IOException {
+
 
         try {
             server.logout(user, this);
+            FXMLLoader loginLoader = new FXMLLoader();
+            loginLoader.setLocation(getClass().getResource("/Login.fxml"));
+            Parent fxml = loginLoader.load();
+
+            anchor_pane2.getChildren().removeAll();
+
+            anchor_pane2.getChildren().setAll(fxml);
+
+            LoginController loginController = loginLoader.getController();
+            loginController.setServer(server);
         } catch (TriatlonException e) {
             System.out.println("Logout error " + e);
         }

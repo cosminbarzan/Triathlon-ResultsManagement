@@ -20,6 +20,7 @@ public class UserHbmRepository implements UserRepository {
         try(Session session = sessionFactory.openSession()){
             session.beginTransaction();
 
+            System.out.println("Username: " + username + " Password" + password);
             Query<User> query = session.createQuery("from User where username=? and password=?", User.class);
             query.setParameter(0, username);
             query.setParameter(1, password);
@@ -27,6 +28,7 @@ public class UserHbmRepository implements UserRepository {
             User user = query.uniqueResult();
             session.getTransaction().commit();
 
+            System.out.println(user);
             return user.getId();
         }
     }

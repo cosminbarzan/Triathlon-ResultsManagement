@@ -82,6 +82,7 @@ public class ServicesRpcProxy implements IServices {
         sendRequest(req);
         Response response = readResponse();
         closeConnection();
+        System.out.println( "close connection");
 
         if (response.type() == ResponseType.ERROR){
             String err = response.data().toString();

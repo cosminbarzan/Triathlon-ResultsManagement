@@ -1,3 +1,4 @@
+import triathlon.model.Stage;
 import triathlon.model.User;
 import triathlon.network.utils.AbstractServer;
 import triathlon.network.utils.RpcConcurrentServer;
@@ -70,6 +71,7 @@ public class StartRpcServer {
         ParticipantRepository participantRepo = new ParticipantDBRepository(serverProps);
         ResultRepository resultRepo = new ResultDBRepository(serverProps);
         StageRepository stageRepo = new StageDBRepository(serverProps);
+
         //UserRepository userRepo = new UserDBRepository(serverProps);
 
         initialize();

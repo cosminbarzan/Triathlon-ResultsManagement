@@ -7,4 +7,5 @@ include 'ChatPersistence'
 include 'ChatPersistence'
 include 'ChatServer'
 include 'ChatServices'
+include 'RestServices'
 
